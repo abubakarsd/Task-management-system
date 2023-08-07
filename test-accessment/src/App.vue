@@ -10,10 +10,11 @@ import task from './components/task.vue'
 
 <style>
 .todo-table {
-  width: 100%;
+  width: 200%;
   border-collapse: collapse;
   border: 1px solid #ccc;
   margin-top: 20px;
+  margin: 0 0 0 0;
 }
 
 .todo-table th,

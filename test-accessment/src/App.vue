@@ -1,17 +1,8 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
 import task from './components/task.vue'
 </script>
 
 <template>
-  <!-- <header>
-
-    <div class="wrapper">
-      <task msg="You did it!" />
-    </div>
-  </header> -->
-
   <main>
     <task />
   </main>

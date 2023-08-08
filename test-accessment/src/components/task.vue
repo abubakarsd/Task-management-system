@@ -4,7 +4,7 @@
             <thead>
                 <tr>
                     <th>Todo Name</th>
-                    <th>Progress</th>
+                    <th>Progress Status</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "task",
   data() {
     return {
       todos: [
@@ -37,12 +37,10 @@ export default {
   },
   methods: {
     editTodo(index) {
-      // Implement edit functionality here
-      console.log("Edit clicked for index:", index);
+      console.log("Edit:", index);
     },
     updateProgress(index) {
-      // Implement update functionality here
-      console.log("Update clicked for index:", index);
+      console.log("Update:", index);
     },
   },
 };
